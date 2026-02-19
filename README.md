@@ -3,6 +3,8 @@
 > Site vitrine et boutique en ligne pour Dylan Olivier, photographe animalier.
 > Projet réalisé dans le cadre du module **Web Services** — M2 Ynov.
 
+## À LIRE IMPÉRATIVEMENT, POUR VOUS FACILITEZ LA VIE LISEZ SIMPLEMENT TOUT LE README
+
 ---
 
 ## Aperçu du site
