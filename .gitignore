@@ -1,0 +1,15 @@
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+node_modules
+dist
+build
+.next
+.env.prod
+.env.prod.local
+.env.prod.development.local
+.env.prod.test.local
+.env.prod.production.local

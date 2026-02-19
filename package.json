@@ -1,0 +1,16 @@
+{
+  "name": "dylanolivier-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"backend,frontend\" -c \"bgBlue,bgMagenta\" \"npm run dev:back\" \"npm run dev:front\"",
+    "dev:front": "cd animaux-portfolio && npm run dev",
+    "dev:back": "cd backoffice && npm run dev",
+    "build": "npm run build:back && npm run build:front",
+    "build:front": "cd animaux-portfolio && npm run build",
+    "build:back": "cd backoffice && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
